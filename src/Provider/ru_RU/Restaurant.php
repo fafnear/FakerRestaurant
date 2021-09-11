@@ -174,7 +174,7 @@ class Restaurant extends \Faker\Provider\Base
      * A random Category Name.
      * @return string
      */
-    public function categoryName()
+    public function restaurantCategoryName()
     {
         return static::randomElement(static::$categories);
     }
