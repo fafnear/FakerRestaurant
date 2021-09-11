@@ -103,6 +103,10 @@ class Restaurant extends \Faker\Provider\Base
         'Чесночный соус'
     ];
 
+    protected static $categories = [
+        'Завтрак', 'Обед', 'Ланч', 'Ужин', 'Напитки'
+    ];
+
     /**
      * A random Food Name.
      * @return string
@@ -164,5 +168,14 @@ class Restaurant extends \Faker\Provider\Base
     public function sauceName()
     {
         return static::randomElement(static::$sauceNames);
+    }
+
+    /**
+     * A random Category Name.
+     * @return string
+     */
+    public function categoryName()
+    {
+        return static::randomElement(static::$categories);
     }
 }
