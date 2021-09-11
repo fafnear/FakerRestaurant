@@ -2,6 +2,7 @@
   "name": "fafnear/faker-restaurant",
   "description": "Food and Beverage names generate using fakerphp/faker",
   "homepage": "https://github.com/fafnear/FakerRestaurant",
+  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     { "name": "Alex" }
